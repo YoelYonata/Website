@@ -1,0 +1,88 @@
+@font-face{
+  font-family:Lato;
+  src:url('Lato.ttf');
+}
+body,html{
+  font-family: Lato;
+  color:black;
+  height:100%;
+  margin: 0px;
+}
+.image1, .image2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  
+}
+.image1{
+  background-image: url("testing.jpeg") ;
+  min-height: 100%;
+}
+.image2{
+  background-color: #454547;
+  height: 300px;
+  color: white;
+}
+.navigation{
+  position: sticky;
+  top: -9px;
+} 
+.navigation ul,li,a{
+  display:inline;
+  text-decoration: none;
+  float:right;
+  padding-left: 10px;
+  color: white;
+}
+
+h2 {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -170px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+}
+.seperator{
+  background-color: white;
+  height: 750px;
+  text-align: center;
+  font-size:20px;
+}
+#myPicture{
+    margin: auto;
+    margin-top:-200px;
+    position: absolute;
+    left: 0; right:0;
+}
+#title{
+  margin:auto;
+  margin-top:180px;
+  position: absolute;
+  left:0; right:0;
+}
+
+h3{
+  font-size:32px;
+  margin-top: 400px;
+  line-height: 200px;
+  top:50%;
+}
+h4{
+  font-size:32px;
+}
+.contact{
+  padding-left: 500px;
+  padding-top: 50px;
+}
+.education{
+  margin-top:-180px;
+  padding-left: 1000px;
+}
+.education p{
+  margin-top:0px;
+}

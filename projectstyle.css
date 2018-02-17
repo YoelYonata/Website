@@ -1,0 +1,73 @@
+@font-face{
+  font-family:Lato;
+  src:url('Lato-Thin.ttf');
+}
+body,html{
+  font-family: Lato;
+  color:black;
+  height:100%;
+  margin: 0px;
+}
+.image1, .image2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;  
+  
+}
+.image1{
+  background-image: url("Ocean.jpeg") ;
+  min-height: 100%;
+}
+#title{
+  padding:15px;
+  position: absolute;
+  opacity:100%;
+}
+
+.navigation{
+  position: sticky;
+  top: -9px;
+  font-family:Lato;
+  src:url('Lato.ttf');
+} 
+.navigation ul,li,a{
+  display:inline;
+  text-decoration: none;
+  float:right;
+  padding-left: 10px;
+  color: white;
+}
+
+h1{
+	color:white;
+	font-size:32px;
+	text-align: center;
+	margin:300px;
+	background-color: black;
+	z-index: 0;
+	opacity:0.5;
+}
+.Portfolio{
+  background-color: white;
+  height: 1000px;
+  font-size:20px;
+}
+h3{
+  font-size:32px;
+  margin-left:200px;
+  margin-top: -150px;
+  line-height: 75px;
+}
+h4{
+	padding-top: 50px;
+}
+h4,p{
+	margin-left:800px;
+	margin-right:150px;
+}
+#robokids,#zwilling,#VEX{
+	margin-left: 300px;
+	float:left;
+	padding-top: 50px;
+}
